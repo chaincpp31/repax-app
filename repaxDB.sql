@@ -2,10 +2,6 @@ CREATE DATABASE IF NOT EXISTS `repaxDB`;
 
 use `repaxDB`;
 
-DROP TABLE IF EXISTS `Teachers_In_Subject`;
-DROP TABLE IF EXISTS `Teachers`;
-DROP TABLE IF EXISTS `Groups`;
-
 CREATE TABLE `Clients`(
     `user-id` BIGINT AUTO_INCREMENT,
     `user-name` VARCHAR(50) NOT NULL ,
