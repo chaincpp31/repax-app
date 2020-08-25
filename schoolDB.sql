@@ -7,7 +7,7 @@ DROP TABLE IF EXISTS `Teachers`;
 DROP TABLE IF EXISTS `Groups`;
 
 CREATE TABLE `Teachers`(
-    `id` BIGINT,
+    `id` BIGINT AUTO_INCREMENT,
     `firstname` VARCHAR(120) NOT NULL UNIQUE,
     `lastname` VARCHAR(120) NOT NULL,
 
