@@ -13,7 +13,7 @@ CREATE TABLE `Admin-manage`(
     `admin-id` BIGINT AUTO_INCREMENT,
     `user-tecnician-id` INT(5),
     `type-id` INT(5),
-    `user-id` INT(5)
+    `user-id` INT(5),
 
     PRIMARY KEY (`admin-id`)
     FOREIGN KEY (`admin-id`),(`user-id`),(`type-id`),(`user-tecnician-id`)
