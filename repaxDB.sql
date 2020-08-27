@@ -64,7 +64,7 @@ CREATE TABLE `select-type-job`(
     `electronic` VARCHAR(50) NOT NULL,
 
     PRIMARY KEY (`type-id`)
---     CONSTRAINT `Admin-manage_ibfk_1` FOREIGN KEY (`user-id`) REFERENCES `Admin-manage`,`user-id`
+--     CONSTRAINT `user-id_ibfk_8` FOREIGN KEY (`user-id`) REFERENCES `Admin-manage`,`user-id`
 )ENGINE=InnoDB DEFAULT CHARSET utf8mb4;
 
 CREATE TABLE `Clients-technician`(
